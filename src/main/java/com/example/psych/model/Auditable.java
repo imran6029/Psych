@@ -1,4 +1,4 @@
-package com.example.psych.models;
+package com.example.psych.model;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -14,23 +14,25 @@ import java.util.Date;
 @EntityListeners(AuditingEntityListener.class)
 public abstract class Auditable implements Serializable {
     @Id
-    @GeneratedValue(generator="sequence",strategy = GenerationType.SEQUENCE)
-    @SequenceGenerator(name = "sequence",allocationSize = 10)
+    @GeneratedValue(generator = "sequence",
+            strategy = GenerationType.SEQUENCE)
+    @SequenceGenerator(name = "sequence",
+            allocationSize = 10)
     @Getter
     @Setter
     private Long id;
 
-    @Column(nullable = false,updatable = false)
-    @Temporal(TemporalType.TIMESTAMP)
+    @Column(nullable = false, updatable = false)
     @CreatedDate
+    @Temporal(TemporalType.TIMESTAMP)
     @Getter
     @Setter
-    private Date createdAt;
+    private Date createdAt = new Date();
 
     @Temporal(TemporalType.TIMESTAMP)
     @LastModifiedDate
     @Column(nullable = false)
     @Getter
     @Setter
-    private Date updatedAt;
+    private Date updatedAt = new Date();
 }

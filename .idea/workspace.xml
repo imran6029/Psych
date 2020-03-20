@@ -2,26 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca86738a-a0a8-405a-bd73-58b47d6e53a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/models/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/models/Auditable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/models/ContentWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/models/EllenAnswer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/models/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/models/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/models/GameMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/models/GameStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/models/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/models/PlayerAnswer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/models/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/models/Roles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/models/Round.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/models/Stat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/repositories/PlayerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/repositories/QuestionsRepositories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/GameApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/HelloWorldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/model/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/model/ContentWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/model/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/model/GameMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/model/GameStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/model/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/model/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/model/Stat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/repositories/QuestionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/psych/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/psych.iml" beforeDir="false" afterPath="$PROJECT_DIR$/psych.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/psych/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/psych/PsychApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/psych/models/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/psych/models/Auditable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/model/Auditable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/psych/models/ContentWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/psych/models/EllenAnswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/model/EllenAnswer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/psych/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/psych/models/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/psych/models/GameMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/psych/models/GameStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/psych/models/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/psych/models/PlayerAnswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/model/PlayerAnswer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/psych/models/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/psych/models/Roles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/psych/models/Round.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/model/Round.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/psych/models/Stat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/psych/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/psych/repositories/PlayerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/psych/repositories/PlayerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/psych/repositories/QuestionsRepositories.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/psych/PsychApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,17 +73,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/psych" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\psych\src\main\java\com\example\psych" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.psych.models" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="PsychApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.psych.PsychApplication" />
+    <configuration name="GameApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.psych.GameApplication" />
       <module name="psych" />
       <extension name="coverage">
         <pattern>
@@ -81,7 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PsychApplication" />
+        <item itemvalue="Application.GameApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -115,8 +134,56 @@
       <option name="project" value="LOCAL" />
       <updated>1584272481895</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Basic Controller">
+      <created>1584297226613</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584297226613</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/psych/src/main/java" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Base code with dependencies" />
@@ -124,62 +191,94 @@
     <option name="LAST_COMMIT_MESSAGE" value="Basic Controller" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584725655053">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1584725655053" />
+    <state x="446" y="60" key="#com.intellij.ide.util.MemberChooser" timestamp="1584718405060">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="60" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1584718405060" />
+    <state x="440" y="210" width="398" height="264" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584720363787">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="440" y="210" width="398" height="264" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1584720363787" />
     <state x="396" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584285244389">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="396" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1584285244389" />
-    <state x="201" y="0" key="CommitChangelistDialog2" timestamp="1584272481047">
+    <state x="201" y="0" key="CommitChangelistDialog2" timestamp="1584725988130">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="201" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584272481047" />
+    <state x="201" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584725988130" />
+    <state width="404" height="466" key="DebuggerActiveHint" timestamp="1584721029645">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="404" height="466" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1584721029645" />
+    <state width="305" height="442" key="Diff.GoToChangePopup" timestamp="1584725904888">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="305" height="442" key="Diff.GoToChangePopup/0.0.1280.680@0.0.1280.680" timestamp="1584725904887" />
+    <state x="93" y="93" width="1093" height="493" key="DiffContextDialog" timestamp="1584725925928">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1093" height="493" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1584725925928" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1584269383748">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1584269383748" />
-    <state width="1238" height="228" key="GridCell.Tab.0.bottom" timestamp="1584297090472">
+    <state width="1238" height="259" key="GridCell.Tab.0.bottom" timestamp="1584725796254">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="228" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584297090472" />
-    <state width="1238" height="228" key="GridCell.Tab.0.center" timestamp="1584297090472">
+    <state width="1238" height="259" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584725796254" />
+    <state width="1238" height="259" key="GridCell.Tab.0.center" timestamp="1584725796254">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="228" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584297090472" />
-    <state width="1238" height="228" key="GridCell.Tab.0.left" timestamp="1584297090472">
+    <state width="1238" height="259" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584725796254" />
+    <state width="1238" height="259" key="GridCell.Tab.0.left" timestamp="1584725796254">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="228" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584297090472" />
-    <state width="1238" height="228" key="GridCell.Tab.0.right" timestamp="1584297090472">
+    <state width="1238" height="259" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584725796254" />
+    <state width="1238" height="259" key="GridCell.Tab.0.right" timestamp="1584725796254">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="228" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584297090472" />
-    <state width="1238" height="204" key="GridCell.Tab.1.bottom" timestamp="1584269877560">
+    <state width="1238" height="259" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584725796254" />
+    <state width="1238" height="146" key="GridCell.Tab.1.bottom" timestamp="1584721244236">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584269877560" />
-    <state width="1238" height="204" key="GridCell.Tab.1.center" timestamp="1584269877560">
+    <state width="1238" height="146" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584721244236" />
+    <state width="1238" height="146" key="GridCell.Tab.1.center" timestamp="1584721244236">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1584269877560" />
-    <state width="1238" height="204" key="GridCell.Tab.1.left" timestamp="1584269877560">
+    <state width="1238" height="146" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1584721244236" />
+    <state width="1238" height="146" key="GridCell.Tab.1.left" timestamp="1584721244236">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1584269877560" />
-    <state width="1238" height="204" key="GridCell.Tab.1.right" timestamp="1584269877560">
+    <state width="1238" height="146" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1584721244236" />
+    <state width="1238" height="146" key="GridCell.Tab.1.right" timestamp="1584721244236">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584269877560" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1584269461303">
+    <state width="1238" height="146" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584721244236" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1584715874069">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1584269461303" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1584272488720">
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1584715874069" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1584297230802">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1584272488720" />
-    <state x="336" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1584268152355">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1584297230802" />
+    <state x="336" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1584715838497">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="336" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584268152355" />
+    <state x="336" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584715838497" />
+    <state x="342" y="0" width="592" height="680" key="find.popup" timestamp="1584725615235">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="342" y="0" width="592" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1584725615235" />
+    <state x="299" y="152" key="run.anything.popup" timestamp="1584723307513">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="299" y="152" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1584723307513" />
     <state x="304" y="3" width="672" height="678" key="search.everywhere.popup" timestamp="1584269447836">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

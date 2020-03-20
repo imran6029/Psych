@@ -1,4 +1,4 @@
-package com.example.psych.models;
+package com.example.psych.model;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -12,8 +12,8 @@ import java.util.Set;
 @Entity
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 public abstract class User extends Auditable {
-    @NotBlank
     @Email
+    @NotBlank
     @Column(unique = true)
     @Getter
     @Setter
@@ -22,10 +22,10 @@ public abstract class User extends Auditable {
     @NotBlank
     @Getter
     @Setter
-    private String hashedPassword;
+    private String saltedHashedPassword;
 
     @ManyToMany
     @Getter
     @Setter
-    Set<Roles> roles = new HashSet<>();
+    Set<Role> roles = new HashSet<>();
 }

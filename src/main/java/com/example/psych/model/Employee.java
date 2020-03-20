@@ -1,4 +1,4 @@
-package com.example.psych.models;
+package com.example.psych.model;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -6,26 +6,24 @@ import lombok.Setter;
 import javax.persistence.Entity;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
-import javax.validation.constraints.NotNull;
+import javax.validation.constraints.NotBlank;
 
 
 @Entity
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 public abstract class Employee extends User {
-
+    @NotBlank
     @Getter
     @Setter
-    @NotNull
     private String address;
 
-
-    @Getter @Setter @NotNull
+    @NotBlank
+    @Getter
+    @Setter
     private String phoneNumber;
 
-
-
-    @Getter @Setter @NotNull
+    @NotBlank
+    @Getter
+    @Setter
     private String name;
 }
-
-

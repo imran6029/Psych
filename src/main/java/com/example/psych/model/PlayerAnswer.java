@@ -1,4 +1,4 @@
-package com.example.psych.models;
+package com.example.psych.model;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -10,17 +10,22 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
 @Entity
-@Table(name="playeranswers")
-public class PlayerAnswer extends Auditable{
-    @NotNull @Getter @Setter
+@Table(name = "playeranswers")
+public class PlayerAnswer extends Auditable {
+    @NotNull
     @ManyToOne
+    @Getter
+    @Setter
     private Round round;
 
-    @NotNull @Getter @Setter
+    @NotNull
     @ManyToOne
+    @Getter
+    @Setter
     private Player player;
 
     @NotBlank
-    @Getter @Setter
+    @Getter
+    @Setter
     private String answer;
 }
